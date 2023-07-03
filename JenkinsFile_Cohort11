@@ -10,7 +10,7 @@ pipeline{
     stage('Cloning'){
       steps {
         echo 'Cloning from GitHub'
-        git credentialsId: 'Git_MainCred', url: 'https://github.com/SusanOnuorah/web-app.git'
+        git credentialsId: 'Git_MainCred', url: 'https://github.com/taakujobi/web-app.git'
         echo 'Cloning done'
       }
     }
